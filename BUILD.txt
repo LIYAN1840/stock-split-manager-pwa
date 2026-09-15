@@ -1,0 +1,5 @@
+股票分账管家 PWA package
+Source app: 股票分账管家2026-09-15.html
+App version retained: 1.14.6
+PWA build date: 2026-09-15
+Target: GitHub Pages + Android/Xiaomi Chrome

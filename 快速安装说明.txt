@@ -1,0 +1,29 @@
+股票分账管家 PWA —— 快速安装
+
+【先做数据备份】
+如果旧 HTML 已经有真实数据：
+旧程序 → 数据备份与恢复 → 导出 JSON。
+GitHub PWA 第一次打开后再用“选择 JSON 恢复”导入。
+
+【上传 GitHub】
+1. 新建 GitHub 仓库。
+2. 解压 ZIP。
+3. 把 stock-split-manager-pwa 文件夹“里面的内容”上传到仓库根目录。
+4. GitHub → Settings → Pages。
+5. Source：Deploy from a branch。
+6. Branch：main；Folder：/(root)；Save。
+7. 等待部署完成，点击 Visit site。
+
+【小米手机安装】
+1. 推荐用 Chrome 打开 GitHub Pages 的 https 地址。
+2. 右上角 ⋮。
+3. 选择“安装应用”，或“添加到主屏幕 / 安装并建立快捷方式”。
+4. 点“安装”。
+5. 桌面出现“股票分账管家”图标后即可使用。
+
+【特别注意】
+- 不要把真实 JSON/Excel 备份上传到公开 GitHub 仓库。
+- 账本数据保存在当前手机/浏览器本地。
+- 清除 Chrome 网站数据、卸载或换手机前，请先导出 JSON。
+- 自动行情和历史补全仍需要联网。
+- 直接双击本地 index.html 不能完整测试 Service Worker；请用 GitHub Pages HTTPS。
